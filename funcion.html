@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<TITLE>Interfaz del GnuPlot</TITLE>
+</HEAD>
+<BODY>
+<FORM ACTION="/cgi-bin/funcion.pl" METHOD="GET">
+Ingrese la funcion a graficar: <INPUT TYPE="text" NAME="funcion" SIZE=40><BR>
+
+<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=0 BGCOLOR="Silver">
+<CAPTION>Funciones soportadas</CAPTION>
+<TR><TD WIDTH=100><B>Funci&oacute;n</B></TD><TD WIDTH=100><B>Argumentos</B></TD><TD
+WIDTH=300><B>Devuelve ...</B></TD></TR>
+<TR><TD>abs(x)</TD><TD>cualquiera</TD><TD>valor absoluto de <I>x</I></TD></TR>
+<TR><TD>abs(x)</TD><TD>complejo</TD><TD>longitud de <I>x</I>, sqrt(real(x)**2 + imag(x)**2)</TD></TR>
+<TR><TD>acos(x)</TD><TD>cualquier clase</TD><TD>arco coseno de <I>x</I>, en radianes</TD></TR>
+<TR><TD>arg(x)</TD><TD>complejo</TD><TD>Fase de <I>x</I>, en radianes</TD></TR>
+<TR><TD>asin(x)</TD><TD>cualquier clase</TD><TD>arco seno de <I>x</I>, en radianes</TD></TR>
+<TR><TD>atan(x)</TD><TD>cualquier clase</TD><TD>arco tangente de <I>x</I>, en radianes</TD></TR>
+<TR><TD>besj0(x)</TD><TD>radianes</TD><TD>Funci&oacute;n de Bessel j0 de <I>x</I></TD></TR>
+<TR><TD>besj1(x)</TD><TD>radianes</TD><TD>Funci&oacute;n de Bessel j1 de <I>x</I></TD></TR>
+<TR><TD>besy0(x)</TD><TD>radianes</TD><TD>Funci&oacute;n de Bessel y0 de <I>x</I></TD></TR>
+<TR><TD>besy1(x)</TD><TD>radianes</TD><TD>Funci&oacute;n de Bessel y1 de <I>x</I></TD></TR>
+<TR><TD>ceil(x)</TD><TD>cualquier tipo</TD><TD>Entero m&aacute;s chico, no menor que <I>x</I> </TD></TR>
+<TR><TD>cos(x)</TD><TD>radianes</TD><TD>Coseno de <I>x</I></TD></TR>
+<TR><TD>cosh(x)</TD><TD>radianes</TD><TD>Coseno Hiperb&oacute;lico de <I>x</I></TD></TR>
+<TR><TD>erf(x)</TD><TD>cualquier tipo</TD><TD>Erf(real(x)), Funci&oacute;n de error de Real(<I>x</I>)</TD></TR>
+<TR><TD>erfc(x)</TD><TD>cualquier tipo</TD><TD>Erfc(real(x)), 1 - Funci&oacute;n de error de Real (<I>x</I>)</TD></TR>
+<TR><TD>exp(x)</TD><TD>cualquier tipo</TD><TD>Funci&oacute;n Exponencial de <I>x</I></TD></TR>
+<TR><TD>floor(x)</TD><TD>cualquier tipo</TD><TD>Entero m&aacute;s grande, no mayor que <I>x</I></TD></TR>
+<TR><TD>gamma(x)</TD><TD>cualquier tipo</TD><TD>Gamma(real(x)), Funci&oacute;n Gamma de Real(<I>x</I>)</TD></TR>
+<TR><TD>ibeta(p,q,x)</TD><TD>cualquier tipo</TD><TD>Ibeta(real(x)), Funci&oacute;n Ibeta de Real(<I>p, q, x</I>)</TD></TR>
+<TR><TD>inverf(x)</TD><TD>cualquier tipo</TD><TD>Funci&oacute;n de error inversa de Real(<I>x</I>)</TD></TR>
+<TR><TD>igamma(a, x)</TD><TD>cualquier tipo</TD><TD>Igamma(real(a, x)), Funci&oacute;n Igamma de Real(<I>x</I>)</TD></TR>
+<TR><TD>imag(x)</TD><TD>complejo</TD><TD>Parte imaginaria de <I>x</I>, como un n&uacute;mero real</TD></TR>
+<TR><TD>invnorm(x)</TD><TD>cualquier tipo</TD><TD>Funci&oacute;n de distribuci&oacute;n Normal inversa de <I>x</I></TD></TR>
+<TR><TD>int(x)</TD><TD>real</TD><TD>Parte Entera de <I>x</I></TD></TR>
+<TR><TD>lgamma(x)</TD><TD>cualquier tipo</TD><TD>Lgamma(real(x)), Funci&oacute;n Lgamma de Real(<I>x</I>)</TD></TR>
+<TR><TD>log(x)</TD><TD>cualquier tipo</TD><TD>Logaritmo Natural de <I>x</I></TD></TR>
+<TR><TD>log<SUB>10</SUB>(x)</TD><TD>cualquier tipo</TD><TD>Log<SUB>10</SUB>(x), Logaritmo Base 10 de <I>x</I></TD></TR>
+<TR><TD>norm(x)</TD><TD>cualquier tipo</TD><TD>Distribuci&oacute;n Normal de <I>x</I></TD></TR>
+<TR><TD>rand(x)</TD><TD>cualquier tipo</TD><TD>generador de n&uacute;meros pseudo-aleatorios</TD></TR>
+<TR><TD>real(x)</TD><TD>cualquier tipo</TD><TD>Parte real de <I>x</I></TD></TR>
+<TR><TD>sgn(x)</TD><TD>cualquier tipo</TD><TD>1 si <I>x</I>>0, -1 si <I>x</I><0, o si <I>x</I>=0. Se ignora imag(x)</TD></TR>
+<TR><TD>sin(x)</TD><TD>radianes</TD><TD>Seno de <I>x</I></TD></TR>
+<TR><TD>sinh(x)</TD><TD>radianes</TD><TD>Seno Hiperb&oacute;lico de <I>x</I></TD></TR>
+<TR><TD>sqrt(x)</TD><TD>cualquier tipo</TD><TD>Ra&iacute;z Cuadrada de <I>x</I></TD></TR>
+<TR><TD>tan(x)</TD><TD>radians</TD><TD>Tangente de <I>x</I></TD></TR>
+<TR><TD>tanh(x)</TD><TD>radianes</TD><TD>Tangente Hiperb&oacute;lica de <I>x</I></TD></TR>
+
+</TABLE><P>
+
+</BODY>
+</HTML>
